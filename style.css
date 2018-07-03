@@ -73,16 +73,25 @@ input.input:hover {
     width: 559px;
     line-height: 27px;
     border-radius: 2px;
+
   }
 
   .btn {
+    color: #666 !important;
+    font-weight: bold;
     line-height: 27px;
     font-size: 13px;
     font-weight: bold;
     margin: 11px 4px;
+    background-color: #F6F6F6 !important;
+    border: none !important;
+    border-radius: 1px !important;
 
   }
 
+.btn:hover{
+  background-color: #C6C6C6 !important;
+}
 
 
 /* Footer */
@@ -116,7 +125,6 @@ footer a:hover {
 
 }
 
-
 #nav_footer {
     float: left;
     left: 0px;
@@ -129,7 +137,6 @@ footer a:hover {
     left: 0px;
     margin-right: 2.5em;
     margin-top: 16px;
-
 
 }
 
@@ -149,6 +156,5 @@ footer a:hover {
     font-size: 13px;
     margin-top: 12px;
     color: #bebbbd;
-
 
 }
