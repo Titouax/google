@@ -1,0 +1,125 @@
+/* Header */
+header {
+  font-family: arial, sans-serif;
+  color: #222;
+  text-align: right;
+  font-size: 13px;
+  padding: 10px;
+  margin: 10px;
+
+}
+
+  /* div .header */
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    align-items: center;
+
+  }
+
+#connexion {
+  line-height: 28px;
+  height: 28px;
+}
+
+
+  /* Image carrés */
+  img#option{
+    height: 20px;
+    width: 20px;
+
+  }
+
+/* Contenu CENTRER - Logo + formulaire (input & button) */
+.logoform {
+  padding-top: 55px;
+  padding-bottom: 100px;
+  margin-top: 89px;
+
+}
+
+  .logo {
+    height: 92px;
+    width: 272px;
+
+  }
+
+  .input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: 1px solid #c6c6c6;
+    color: #222;
+    height: 38px;
+    width: 559px;
+    line-height: 27px;
+
+  }
+
+  .button {
+    line-height: 27px;
+    font-size: 13px;
+    font-weight: bold;
+    margin: 11px 4px;
+
+
+  }
+
+/* Footer */
+footer {
+  margin: 0px;
+  background-color: rgb(248, 248, 248);
+  display: flex;
+  justify-content: flex-end;
+  position: absolute;
+    bottom: 30px;
+    width: 100%;
+
+
+}
+
+  /* Première ligne */
+  #france {
+    text-align: left;
+    padding: 10px;
+    padding-left: 10px;
+    margin-left: 15px;
+    display: flex;
+    /*border: 1px solid blue*/
+  }
+
+  /* Deuxième ligne */
+  #footer {
+
+    margin: 0px;
+    width: auto;
+  /*border: 1px solid red*/
+  }
+  /* Colonne gauche deuxième ligne */
+  #col-footer-gauche {
+    text-align: left;
+    padding: 10px;
+    padding-left: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+  /*border: 1px solid green;*/
+  }
+
+  /* Collone droite deuxième ligne */
+
+li {
+  list-style-type: none;
+  display: inline;
+}
+
+  #col-footer-droit {
+    text-align: right;
+    padding: 10px;
+    padding-right: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-self: flex-end;
+  /*border: 1px solid black*/
+  }
